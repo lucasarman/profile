@@ -1,0 +1,122 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter,sans-serif;
+  
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./imagens/background.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  max-width: 550px;
+  width: 100%;
+  background-color: hsla(133, 90%, 4%, 0.555);
+  border-radius: 10px;
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(15, 85, 6, 0.171) 0px 54px 55px, rgba(0, 0, 0, 0.247) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.perfil{ 
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: ;
+}
+
+
+.text {
+  font-size: 20px;
+  color: rgb(209, 208, 208);
+  text-align: center;
+  font-weight: bold;
+}
+.text h1{
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.city{ 
+  font-size: 15px;
+  color: hsl(75, 94%, 57%);
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.role{
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(230, 230, 230);
+ opacity: 0.5;
+ 
+}
+.socials{
+  margin-top: 2rem;
+  gap: .5rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.socials a{ 
+  display: flex;
+  text-decoration: none;
+  color: #0b3b13; 
+  background: linear-gradient(to right, #013a17, #077c249f);
+  opacity: 0.8;
+  margin: 5px 0; 
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: rgb(1, 68, 6) 0px 1px 4px, hsla(130, 93%, 21%, 0.664) 0px 0px 0px 3px;
+
+}
+
+
+.socials img {
+  width: 30px; 
+  height: auto;
+  margin-right: 10px; 
+} 
+
+.socials span {
+  font-size: 25px; 
+  color: #fbfffb; 
+  padding: 10px;
+  font-style: italic;
+}
+
+
+.socials a:hover {
+  background: #4de240b6;
+  border-color: black;
+}
+
+.whatsapp { 
+  position:absolute; 
+  bottom: 50px;
+  right: 100px;
+
+  
+  img{
+    width: 48px;
+  height: 48px;
+  object-fit: cover;
+  }
+}
+
